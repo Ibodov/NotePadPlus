@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_margin">@dimen/app_margin</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Navy</item>
+        <item name="colorPrimaryDark">@color/Brown</item>
+        <item name="colorAccent">@color/Azure</item>
+
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">@color/Navy</item>
+
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/Beige</item>
+    </style>
+
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        ...
+    </style>
+    <style name="ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:titleTextStyle">@style/ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/ActionBar.Subtitle</item>
+        ...
+    </style>
+
+    <style name="ActionBar.Title">
+        <item name="android:textColor">@color/Navy</item>
+    </style>
+
+    <style name="ActionBar.Subtitle">
+        <item name="android:textColor">@color/Yellow</item>
+
+    </style>
+
+</resources>
